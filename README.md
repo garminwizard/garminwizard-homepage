@@ -21,4 +21,6 @@ The code for the Garmin wizard is in the `static/garmin/garminscript.js`file. An
 
 Docusaurus loads content asynchrounously. This means we cannot run the wizard before the page is ready. To obtain this we must plugin to the Docusaurs [getClientModules lifecycle](https://docusaurus.io/docs/api/plugin-methods/lifecycle-apis#getClientModules). 
 
-- The Garmin wizard client module is `garminrouteupdates.js`in the `garmin-plugin-script` directory.
+The plugin is defined in the `index.js` file inside the `garmin-plugin-script` directory. It specifies that it should load the client module `garminrouteupdates.js` which is also in the `garmin-plugin-script` directory.
+
+When you access the `garminwizard.md` file, `onRouteDidUpdate` in `garminrouteupdates.js` will call the  `startGarminWizard` method defined in `garminscript.js`.
