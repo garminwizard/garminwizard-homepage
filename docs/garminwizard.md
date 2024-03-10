@@ -22,7 +22,10 @@ sidebar_position: 3
     <button className="tablinks" data-page="Page2"><h2>Matching products<span id="matchingProducts" className="garminbadgehidden"></span></h2></button>
     </div>
     <div id="Page1" className="tabcontent">
-        <span id="expand-all-button"> Expand all</span>
+        <button id="expand-all-button">Expand All</button>
+        <button id="collapse-all-button">Collapse All</button>
+        <button id="check-all-button">Check All</button>
+        <button id="uncheck-all-button">Uncheck All</button>
         <div id="garmin">
         </div>
     </div>
