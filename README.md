@@ -1,6 +1,14 @@
 # Website
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator. Note that you need node version 18 or higher to build docusaurus. If you have installed the node version manager, you can change the version with f.ex. `nvm use 18` to use version 18.
+
+To run locally, inside the garminwizard-homepage directory, type
+`npm run start``
+
+To build the web page, type
+`npm run build`
+
+The content in the build directory can then be uploaded to a web server.
 
 # Garmin products database
 

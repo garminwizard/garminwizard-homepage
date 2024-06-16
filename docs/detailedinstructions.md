@@ -23,6 +23,6 @@ sidebar_position: 4
         To lookup watches that also support VO2 Max, open the Training, Planning and Analysis Features section and check VO2 Max. Note that there is also a VO2 Max (Trail run) specification. If you want to find the watches that support both, you must check both checkboxes. Note that you will probably also want to check the "Power meter compatible" specification, as you can only get your VO2 max for cycling if you have a power meter and the watch can communicate with it. You will find that specification in the Cycling Features section.
 
         <b>Tip:</b> 
-        You can expand/collapse all sections by checkiing the "Expand all" checkbox.
+        You can expand/collapse all sections by checking the "Expand all" checkbox.
 
         Also remember that you can search for specifications by pressing CTRL+F on a PC and CMD+F on a mac.
