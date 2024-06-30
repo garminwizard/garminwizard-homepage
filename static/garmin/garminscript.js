@@ -17,7 +17,7 @@ function startGarminWizard()
 
     initSqlJs(config).then(function (SQL) {
         console.log("sql.js initialized 🎉");
-        fetch('/garmin/products.db?v=5')
+        fetch('/garmin/products.db?v=6')
         .then(response => response.arrayBuffer())
         .then(buffer => {
             db = new SQL.Database(new Uint8Array(buffer));
@@ -550,7 +550,6 @@ function generateTheQueryAcrossAllSpecificationGroups(checkedSpecs)
     FROM products
     WHERE ${query}
     GROUP BY displayName
-    HAVING COUNT(specKey) = ${numberOfUniqueSpecs}
     ORDER BY price
     `;
 

@@ -1,5 +1,7 @@
 #!/bin/bash
 
+npm run build
+
 # Change directory to ../garminwizard.github.io
 cd ../garminwizard.github.io || exit
 
