@@ -38,7 +38,7 @@ const config = {
   ],
   scripts: [
     '/garmin/sql-wasm.js',
-    '/garmin/garminscript.js?v=8'
+    '/garmin/garminscript.js?v=9'
   ],
   plugins: [
     './garmin-plugin-script',
